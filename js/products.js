@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Path to your CSV file
-    const csvFilePath = 'data/products.csv';
+    const csvFilePath = './data/products.csv';
     
     // Fetch the CSV file
     fetch(csvFilePath)
