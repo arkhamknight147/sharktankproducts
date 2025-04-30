@@ -98,14 +98,20 @@ ul {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     overflow: hidden;
+    width: 100%;
 }
 
 #searchInput {
-    flex: 1;
+    flex-grow: 1;
     padding: 1rem 1.5rem;
     border: none;
     font-size: 1rem;
     outline: none;
+}
+
+#searchInput:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.4);
 }
 
 #searchButton {
@@ -120,6 +126,19 @@ ul {
 
 #searchButton:hover {
     background-color: #e55a2b;
+}
+
+/* Highlight for search results (optional) */
+.search-highlight {
+    background-color: rgba(255, 235, 59, 0.3);
+}
+
+/* Style for when no results are found */
+.no-results-row td {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #666;
 }
 
 /* Products Table Styles */
@@ -155,6 +174,10 @@ ul {
 
 #productsTable tr:hover {
     background-color: #f9f9f9;
+}
+
+#productsTable tbody tr {
+    transition: opacity 0.3s;
 }
 
 .buy-btn {
