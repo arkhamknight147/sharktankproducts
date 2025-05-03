@@ -416,3 +416,28 @@ footer {
         font-size: 1rem;
     }
 }
+/* Add this to your styles.css file for better mobile responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+}
