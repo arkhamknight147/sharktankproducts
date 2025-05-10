@@ -1,0 +1,91 @@
+{
+    "products": [
+      {
+        "BrandName": "FAE Beauty",
+        "BannerImage": "images/fae-beauty-banner.jpg",
+        "Description": "FAE Beauty (Free and Equal Beauty), featured on Shark Tank India, is an inclusive beauty and skincare brand for all skin tones, undertones, and textures",
+        "Items": [
+          {
+            "Image": "images/fae-beauty-product1.jpg",
+            "Price": "INR 552",
+            "AmazonLink": "https://amzn.to/3F11zeF"
+          },
+          {
+            "Image": "images/fae-beauty-product2.jpg",
+            "Price": "INR 549",
+            "AmazonLink": "https://amzn.to/4mbpSY6"
+          },
+          {
+            "Image": "images/fae-beauty-product3.jpg",
+            "Price": "INR 599",
+            "AmazonLink": "https://amzn.to/438BwKn"
+          },
+          {
+            "Image": "images/fae-beauty-product4.jpg",
+            "Price": "INR 349",
+            "AmazonLink": "https://amzn.to/44xUvRc"
+          },
+          {
+            "Image": "images/fae-beauty-product5.jpg",
+            "Price": "INR 341",
+            "AmazonLink": "https://amzn.to/3SAQvI9"
+          },
+          {
+            " Ascending
+          }
+        ]
+      },
+      {
+        "BrandName": "Confect",
+        "BannerImage": "images/confect-banner.jpg",
+        "Description": "Confect, featured on Shark Tank India Season 4 Episode 1, is a 100% clean and vegan bakery brand that crafts delicious products using pure cane sugar. They secured a deal with Namita Thapar for INR 1 Crore for 2% equity and 2% royalty until INR 1 Crore is recouped. Confect’s treats are perfect for those seeking guilt-free indulgence without compromising on taste.",
+        "Items": [
+          {
+            "Image": "images/confect-product1.jpg",
+            "Price": "INR 299",
+            "AmazonLink": "https://amzn.to/3FVve9f"
+          },
+          {
+            "Image": "images/confect-product2.jpg",
+            "Price": "INR 349",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product3.jpg",
+            "Price": "INR 399",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product4.jpg",
+            "Price": "INR 499",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product5.jpg",
+            "Price": "INR 449",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product6.jpg",
+            "Price": "INR 599",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product7.jpg",
+            "Price": "INR 329",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product8.jpg",
+            "Price": "INR 379",
+            "AmazonLink": ""
+          },
+          {
+            "Image": "images/confect-product9.jpg",
+            "Price": "INR 429",
+            "AmazonLink": ""
+          }
+        ]
+      }
+    ]
+  }
