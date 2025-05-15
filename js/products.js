@@ -28,15 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
             results.data.forEach(product => {
                 const row = document.createElement('tr');
                 
-                // Create URL-friendly brand name for linking
-                const brandLink = product.BrandName
-                    ? product.BrandName.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.html'
-                    : '#';
-                
-                // Add cells for each column
+                // Add cells for each column (removed hyperlink for BrandName)
                 row.innerHTML = `
                     <td>${product.Episode || ''}</td>
-                    <td><a href="${brandLink}" class="brand-link">${product.BrandName || ''}</a></td>
+                    <td>${product.BrandName || ''}</td>
                     <td>${product.Idea || ''}</td>
                     <td>${product.Category || ''}</td>
                     <td>${product.OriginalAsk || ''}</td>
